@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* background image me top - purple
+or bottam me image - white
+*/
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    height: 570px;
+    background: linear-gradient(rgb(152, 0, 152), white);
+    width: 365px;
+    /* background: white; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px;
+    border: 2px solid black;
+    border-radius: 18px;
+}
+
+#card img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#card h1 {
+    font-size: 30px;
+}
+
+#card p {
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgb(14, 14, 14);
+}
+
+#card h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: red;
+}
+
+#card button {
+    padding: 12px 22px;
+    background-color: rgb(54, 104, 255);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
